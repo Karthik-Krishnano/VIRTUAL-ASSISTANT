@@ -39,7 +39,7 @@ def search_wolfram(que):
         search_webbot(que)
     return output,flagwolfram
 
-#search_wolfram('dog')
+search_wolfram('dog')
 
 def search_wiki(que):
     a=wiki.search(que)

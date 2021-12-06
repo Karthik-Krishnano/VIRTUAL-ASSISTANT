@@ -4,7 +4,7 @@ import win32api
 import musicplayer
 import pyt
 import webbrowser
-import browser
+#import browser
 #import history
 import clock
 from tkinter import*
@@ -28,8 +28,9 @@ assistant='TIM'
 moon = Tk()
 moon.title("TIMALISHA")
 moon.configure(background="ivory3")
-moon.resizable(width=False,height=False)
-moon.geometry('665x444+0+0')
+#moon.resizable(width=False,height=False)
+#moon.geometry('665x444+0+0')
+moon.geometry('900x900+0+0')
 
 man = Frame(moon)
 man.grid()

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>VIRTUAL ASSISTANT</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8  offset-lg-2">
+    
+                
+                <h2 class="mt-5">VIRTUAL ASSISTANT</h2>
+                <img src="{{ url_for('video_feed') }}" height="40%">
+
+                <form method="post" action="{{ url_for('tasks') }}">
+                    <br>
+                    <button type="button" onclick='window.location.href="{{ url_for( 'listen') }}";'>Video</button>
+                    <button type="button" onclick='window.location.href="{{ url_for( 'listen') }}";'>Audio</button>
+                    <button type="button" onclick='window.location.href="{{ url_for( 'listen') }}";'>Text</button>
+                    <!--
+                    <input type="submit" value="VideoInput" name="video" />
+                    <input type="submit" value="VoiceInput" name="audio"/>
+                    <input type="submit" value="TextInput" name="text" />
+                    -->
+
+                    <br>
+                    <input type="text" value="" id="lname" name="lname"><br><br>
+                    
+               
+                <!--
+                     <input type="submit" value="Submit">
+                <input type="submit" value="Stop/Start" name="stop" />
+                <input type="submit" value="Capture" name="click"/>
+                <input type="submit" value="Grey" name="grey" />
+                <input type="submit" value="Negative" name="neg" />
+                <input type="submit" value="Face Only" name="face" />
+                <input type="submit" value="Start/Stop Recording" name="rec" />
+                -->
+
+                         {{results}}       
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
