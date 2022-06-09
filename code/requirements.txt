@@ -1,0 +1,11 @@
+pyttsx3
+SpeechRecognition
+wikipedia
+wolframalpha
+webbot
+pafy
+youtube_dl
+python-vlc
+inquirer
+rich
+youtube-search-python

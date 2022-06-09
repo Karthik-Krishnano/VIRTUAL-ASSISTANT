@@ -1,5 +1,5 @@
 import os
-'''
+
 os.system("pip install pyttsx3")
 print("pyttsx3 installed")
 
@@ -14,7 +14,7 @@ print("wolframalpha installed")
 
 os.system("pip install webbot")
 print("webbot installed")
-'''
+
 # FOR MUSIC
 
 os.system("pip install pafy")

@@ -7,7 +7,7 @@ import cv2
 import datetime, time
 import os, sys
 import numpy as np
-from threading import Thread
+from  threading import Thread
 
 r=sr.Recognizer()
 engine=pyttsx3.init()
@@ -69,6 +69,7 @@ def speak(txt):
 def output(reply):
     t1 = Thread(target=speak, args=(reply,))
     t1.start()
+    #t1.join()
 
 
 def interpret(txt):
@@ -94,8 +95,7 @@ def interpret(txt):
 @app.route('/listen')
 def listen():
     with sr.Microphone() as source:
-        #engine.say('How can I help u?')
-        #engine.runAndWait()
+        speak('How can I help u?')
         print("Listening...")
         aud=r.listen(source)
 

@@ -37,8 +37,13 @@ def playvideo(url):
     
     print("Playing the SONG")
     sleep(100)
+
+
+
     
     '''
+
+    #use this part if you want to see the timestamp of the youtube content
 
     #	PRINT VIDEO DETAILS
     print(f"\n{'-' * 70}\n")
