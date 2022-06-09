@@ -13,3 +13,12 @@ can see but cannot hear or talk. They communicate with each other using sign lan
 A personal assistant that can take the user’s real time video as input, recognise the sign language and acts according to the user’s need will be a very novel idea and also it will be a great achievement to bring up the deaf people in the society. Along with the hand gesture input, audio and text inputs are also available for the user’s convenience.
 
 Similar to other famous virtual assistants, this will also have a wake word or 20 wake sign to run the program. The assistant will be on sleep mode for rest of the time which assures the privacy of the user.
+
+
+USING THE PROJECT
+
+This project is under development. To use the existing functionality of the VIRTUAL ASSISTANT. Install the requirements.txt. You can run the setup.py file instead of running pip for simplicity.
+
+Run the virtual_assist.py file. A window pops up in your browser. You can interact with the assistant using that.
+
+Happy Coding
